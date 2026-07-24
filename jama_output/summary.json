@@ -1,0 +1,51 @@
+{
+  "counts": {
+    "crossref_records": 1331,
+    "europe_pmc_records": 1272,
+    "jama_issue_records": 0,
+    "merged_full_index": 1331,
+    "nonresearch_or_pending": 322,
+    "research_missing_doi": 0,
+    "research_missing_exact_day": 0,
+    "research_missing_idea": 13,
+    "research_records": 1009
+  },
+  "date_window": {
+    "end": "2026-07-24",
+    "inclusive": true,
+    "start": "2026-01-24"
+  },
+  "generated_at_utc": "2026-07-24T08:10:01Z",
+  "research_design_counts": {
+    "Meta分析": 2,
+    "临床试验": 28,
+    "二次分析": 3,
+    "交叉试验": 2,
+    "决策分析模型": 4,
+    "卫生经济学评价": 12,
+    "定性研究": 34,
+    "整群随机临床试验": 5,
+    "整群随机试验": 2,
+    "未自动识别": 100,
+    "横断面研究": 183,
+    "混合方法研究": 4,
+    "病例对照研究": 29,
+    "系统综述": 22,
+    "网状Meta分析": 4,
+    "诊断研究": 9,
+    "调查研究": 27,
+    "质量改进研究": 15,
+    "遗传关联研究": 1,
+    "重复横断面研究": 8,
+    "队列研究": 386,
+    "随机临床试验": 122,
+    "随机试验": 1,
+    "预后研究": 5,
+    "验证研究": 1
+  },
+  "scope_note": "Full index retains research and nonresearch publication records. Research table includes records with a verifiable study design/abstract and excludes commentaries, editorials, corrections, retractions, masthead material, and similar nonresearch content.",
+  "source_coverage_counts": {
+    "Crossref": 60,
+    "Crossref; Europe PMC": 1271
+  }
+}
