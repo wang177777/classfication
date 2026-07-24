@@ -35,11 +35,13 @@ jobs:
       - name: Install dependencies
         run: python -m pip install --disable-pip-version-check requests beautifulsoup4 lxml
 
-      - name: Patch Crossref query compatibility
+      - name: Patch source compatibility and retry policy
         shell: bash
         run: |
           sed -i '/"cursor-max": rows,/d' scripts/fetch_jama_network_open.py
           sed -i 's/,type:journal-article//' scripts/fetch_jama_network_open.py
+          sed -i 's/for attempt in range(6):/for attempt in range(2):/' scripts/fetch_jama_network_open.py
+          sed -i 's/if attempt == 5:/if attempt == 1:/' scripts/fetch_jama_network_open.py
 
       - name: Harvest and reconcile records
         id: harvest
